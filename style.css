@@ -112,3 +112,21 @@
     gap: 20px;
     align-items: center;
 }
+/* appointment-section */
+.appointment-container{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
