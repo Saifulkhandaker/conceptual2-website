@@ -31,28 +31,84 @@
 }
 .banner-title{
     padding-top: 180px;
-    font-size: 65px;
+    font-size: 55px;
 }
 .red-text{
-    color: red;
+    color: rgb(244, 60, 60);
 }
 /* button-section */
-.color-button{
-    color: white;
-    background-color: red;
-    font-size: 12px;
-    font-weight: 400;
-    margin: 10px;
-    padding: 10px;
+.button{
+    padding: 12px 15px;
     border: none;
-    cursor: pointer; 
+    margin-top: 10px;
 }
-.normal-button{
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-    font-weight: 500;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;  
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+/* service-section */
+.service-container{
+    height: 100vh;
+    background-image: url("image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+.service-title{
+    padding-top: 10px;
+}
+.service-description{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service-items{
+    display: flex;
+}
+.first-two-box{
+    padding: 3px;
+}
+.second-two-box{
+    padding: 3px;
+}
+.list{
+    margin-left: 15px;
+}
+/* author-section */
+.profile{
+    width: 70px;
+    border-radius: 35px;
+    padding-right: 10px;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
