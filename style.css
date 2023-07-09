@@ -6,15 +6,53 @@
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(188, 188, 186);
+    background-color: rgb(167, 167, 161);
+    padding: 20px;
+    align-items: center;
 }
-.nav-menu,li{
+.nav-menu{
     display: flex;
     list-style: none;
-    color: rgb(96, 96, 96);
-    padding: 10px;
+    color: rgb(243, 236, 236);
+    gap: 15px;
     font-size: 20px;
+    font-style: italic;
 }
-.nav-logo{
-    padding-top: 10px;
+ /* banner-section */
+.banner-container{
+    height: 100vh;
+    background-image: url("image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    padding-top: 180px;
+    font-size: 65px;
+}
+.red-text{
+    color: red;
+}
+/* button-section */
+.color-button{
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer; 
+}
+.normal-button{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;  
 }
