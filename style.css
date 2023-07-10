@@ -41,6 +41,7 @@
     padding: 12px 15px;
     border: none;
     margin-top: 10px;
+    cursor: pointer;
 }
 .bg-primary{
     background-color: red;
@@ -160,4 +161,19 @@
     display: flex;
     justify-content:center;
     gap: 20px;
+}
+/* footer section */
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 60px;
+    background-color: black;
+    color: white;
+}
+.author-title{
+    margin-bottom: 40px;
+}
+.social-icons{
+    margin: 10px;
 }
